@@ -1795,4 +1795,21 @@ section {
     .counter{ margin-bottom: 40px; }
 }
 
+/*.services_gradient_background {
+    background-image: linear-gradient(to right,#1f005c,#20bd86);
+    }*/
+
+.services_gradient_background: linear-gradient(90deg, #1f005c, #00287b, #004491, #005ea0, #0077a8, #008fac, #00a6ae, #57bdb1);
+
+#video-meta-content {
+  width: 100%;
+  height: 500px;
+  margin:0;
+  padding:0;
+  border: 3px solid grey;
+}
+video {
+  max-width: 100%;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------- */
