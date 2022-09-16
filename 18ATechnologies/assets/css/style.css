@@ -1684,6 +1684,17 @@ section {
     background-image: linear-gradient(to right,#0072d2,#00b6c3);
     }
 
+.services_gradient_background: linear-gradient(90deg, #1f005c, #00287b, #004491, #005ea0, #0077a8, #008fac, #00a6ae, #57bdb1);
+
+.emphasize-dark {
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
+  border-radius: 25px;
+}
+
+.lightblue_gradient_background {
+    background-image: linear-gradient(to right,#00b6c3,#0072d2);
+    }
+
 .embossed{
   color: #f0f0f0;
   font-size: 100px;
