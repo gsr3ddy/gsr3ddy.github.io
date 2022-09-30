@@ -1680,12 +1680,6 @@ section {
   text-decoration: none;
 }
 
-.blue_gradient_background {
-    background-image: linear-gradient(to right,#0072d2,#00b6c3);
-    }
-
-.services_gradient_background: linear-gradient(90deg, #1f005c, #00287b, #004491, #005ea0, #0077a8, #008fac, #00a6ae, #57bdb1);
-
 .emphasize-dark {
   box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
   border-radius: 25px;
@@ -1829,14 +1823,14 @@ section {
 .correct-item:after {
     content: "";
     border-radius: 5px;
-    position: absolute;
+    position:sticky;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
     opacity: 0;
-    transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    /*transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1); */
 }
 
 
